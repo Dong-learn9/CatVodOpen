@@ -1,11 +1,49 @@
 {
   "video": {
-    "sites": [
+    "sites": [      
+      {
+        "key": "czzy",
+        "name": "厂长",
+        "type": 3,
+        "api": "assets://js/czzy_open.js"
+      },
       {
         "key": "kunyu77",
-        "name": "琨娱七七",
+        "name": "七七",
         "type": 3,
         "api": "assets://js/kunyu77_open.js"
+      },       
+      {
+        "key": "kkys",
+        "name": "快看",
+        "type": 3,
+        "api": "assets://js/kkys_open.js"
+      },       
+      {
+        "key": "ikanbot",
+        "name": "爱看",
+        "type": 3,
+        "api": "assets://js/ikanbot_open.js"
+      },
+      {
+        "key": "wogg",
+        "name": "阿里",
+        "type": 3,
+        "api": "assets://js/wogg_open.js",
+        "ext": "https://sharetoken.lm317379829.repl.co/token?iv=1&key=1"
+      },
+      {
+        "key": "nivod",
+        "name": "泥巴",
+        "type": 3,
+        "api": "assets://js/nivod_open.js", 
+        "ext": "888解忧愁;socks5://192.168.1.221:2080"
+      },      
+      {
+        "key": "duboku",
+        "name": "独播",
+        "type": 3,
+        "api": "assets://js/duboku_open.js"
       }
     ]
   },
@@ -37,7 +75,7 @@
           },
           {
             "name": "🐋一只鱼",
-            "server": "https://alist.youte.ml"
+            "server": "https://vtok.pp.ua/"
           },
           {
             "name": "🌊七米蓝",
