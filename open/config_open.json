@@ -1,6 +1,13 @@
 {
   "video": {
-    "sites": [      
+    "sites": [
+      {
+        "key": "live",
+        "name": "直播",
+        "type": 3,
+        "api": "assets://js/live_open.js",
+        "ext": "http://home.jundie.top:81/Cat/tv/live.txt"
+      },
       {
         "key": "czzy",
         "name": "厂长",
@@ -31,7 +38,8 @@
         "type": 3,
         "api": "assets://js/wogg_open.js",
         "ext": "https://sharetoken.lm317379829.repl.co/token?iv=1&key=1"
-      },
+      }
+    /* 
       {
         "key": "duboku",
         "name": "独播",
@@ -44,7 +52,14 @@
         "type": 3,
         "api": "assets://js/nivod_open.js", 
         "ext": "888解忧愁"
-      }
+      },
+      {
+        "key": "mtsp",
+        "name": "密探",
+        "type": 3,
+        "api": "assets://js/mtsp_open.js"
+      },
+      */
     ]
   },
   "pan": {
