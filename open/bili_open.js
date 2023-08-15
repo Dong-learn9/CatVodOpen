@@ -3,7 +3,7 @@ import { Crypto, _ } from './lib/cat.js';
 let siteKey = '';
 let siteType = 0;
 
-let cookie = '';
+let cookie = 'https://raw.fastgit.org/FongMi/CatVodSpider/main/txt/cookie.txt';
 let login = '';
 let vip = '';
 let extendObj = {};
