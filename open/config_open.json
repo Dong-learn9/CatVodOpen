@@ -1,13 +1,19 @@
 {
   "video": {
-    "sites": [       
+    "sites": [
       {
-        "key": "live",
+        "key": "alist",
         "name": "直播",
         "type": 3,
         "api": "assets://js/live_open.js",
         "ext": "http://home.jundie.top:81/Cat/tv/live.txt"
-      },     
+      },
+      {
+        "key":"央视",
+        "name":"央视",
+        "type":3,
+        "api":"assets://js/cntv_open.js"
+      },
       {
         "key": "czzy",
         "name": "厂长",
@@ -19,24 +25,30 @@
         "name": "七七",
         "type": 3,
         "api": "assets://js/kunyu77_open.js"
-      },       
+      }, 
       {
         "key": "kkys",
         "name": "快看",
         "type": 3,
         "api": "assets://js/kkys_open.js"
       },
-       {
+      {
+          "key": "subaibai",
+          "name": "素白白",
+          "type": 3,
+          "api": "assets://js/subaibai_open.js"
+      },
+      {
         "key": "ngsp",
         "name": "南瓜",
         "type": 3,
         "api": "assets://js/ng_open.js"
-      }, 
+      },
       {
-          "key": "subaibai",
-          "name": "素白",
-          "type": 3,
-          "api": "assets://js/subaibai_open.js"
+        "key":"在线",
+        "name":"在线",
+        "type":3,
+        "api":"assets://js/zxzj_open.js"
       },
       {
         "key": "ikanbot",
@@ -46,10 +58,10 @@
       },
       {
         "key": "wogg",
-        "name": "阿里",
+        "name": "玩偶",
         "type": 3,
         "api": "assets://js/wogg_open.js",
-        "ext": "https://sharetoken.lm317379829.repl.co/token?iv=1&key=1"
+        "ext": "https://sharetoken.kvymin.repl.co/token?iv=1&key=1"
       },
       {
         "key": "mybl",
@@ -64,19 +76,49 @@
         "api": "assets://js/230ts_open.js"
       },
       {
-        "key": "duboku",
-        "name": "独播",
-        "type": 3,
-        "api": "assets://js/duboku_open.js"
-      },
-      { 
-        "key": "nivod", 
-        "name": "泥巴", 
-        "type": 3, 
-        "api": "assets://js/nivod_op.js",
-        "ext":"888解忧愁" 
-      }
-    ]
+        "key":"酷奇",
+        "name":"酷奇",
+        "type":3,
+        "api":"assets://js/kuqimv_open.js"
+     },
+     {
+       "key":"童趣",
+       "name":"童趣",
+       "type":3,
+       "api":"assets://js/boosj_open.js"
+    },
+    {
+      "key":"乐虎",
+      "name":"贝乐虎",
+      "type":3,
+      "api":"assets://js/ubestkid_open.js"
+    },
+    {
+      "key":"小贝",
+      "name":"兔小贝",
+      "type":3,
+      "api":"assets://js/tuxiaobei_open.js"
+    },
+    {
+      "key":"短视频",
+      "name":"短视频",
+      "type":3,
+      "api":"assets://js/sharenice_open.js"
+    },
+    {
+      "key": "nivod", 
+      "name": "泥巴",
+      "type": 3, 
+      "api": "assets://js/nivod_open.js",
+      "ext":"888解忧愁" 
+    },
+    {
+      "key": "duboku",
+      "name": "独播",
+      "type": 3,
+      "api": "assets://js/duboku_open.js"
+    }
+  ]
   },
   "pan": {
     "sites": [
